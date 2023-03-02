@@ -1,4 +1,6 @@
 const {AutheticationError} = require('apollo-server-express');
+// throw new AutheticationError('Please login') --> use when add logic for 
+// adding badges/finding parks 
 const {User} = require('../models');
 const {signToken} = require('../utils/auth'); 
 
